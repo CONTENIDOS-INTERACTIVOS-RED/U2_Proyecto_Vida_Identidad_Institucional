@@ -6,13 +6,13 @@
     .row.mb-5
       .col-lg-4.mb-3.mb-lg-0
         .bg-color-1.tarjeta.p-3.h-100(data-aos="fade-left")
-          p(data-aos="fade-left") La educación superior es clave para el desarrollo humano y la transformación social. En este contexto, comprender su marco legal y asumir la identidad institucional es esencial para los estudiantes de la Institución Tecnológica del Oriente. La unidad inicia con el estudio de la Ley 30 de 1992, que regula la educación superior en Colombia y promueve principios como autonomía, calidad, equidad y responsabilidad social, enmarcados en el compromiso ético del ejercicio profesional.
+          p(data-aos="fade-left") La presente unidad tiene como propósito guiar al estudiante en la construcción de su proyecto de vida, entendido como un proceso consciente, flexible y en constante evolución, que permite orientar las decisiones personales, académicas y profesionales con base en los valores, las habilidades y los contextos que rodean a cada ser humano. En coherencia con la misión de la Institución Tecnológica del Oriente, se abordará esta temática no solo como una planeación individual, sino como una apuesta ética y social que conecta el desarrollo personal con la transformación del entorno.
       .col-lg-4.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/intro/1.png" data-aos="zoom-in")
       .col-lg-4.mb-3.mb-lg-0
         .bg-color-2.tarjeta.p-3.h-100(data-aos="fade-left")
-          p(data-aos="fade-left") También se profundiza en la identidad institucional, entendida a través de su misión, visión, principios y valores. Estos elementos no solo conforman la estructura formal de la institución, sino que influyen en su cultura, pedagogía y proyección social, guiando al estudiante hacia un rol transformador dentro y fuera del ámbito académico. Además, se aborda la vinculación con la comunidad como una vía para responder a las necesidades sociales y contribuir al desarrollo sostenible.
+          p(data-aos="fade-left") El estudio del proyecto de vida cobra especial relevancia en la etapa universitaria, momento en el cual se consolidan decisiones fundamentales que marcarán la trayectoria futura del estudiante. Desde esta perspectiva, se invita a reconocer el valor de planear con sentido, de actuar con propósito y de asumir la formación como una herramienta para el crecimiento integral. En esta unidad, se reflexionará sobre la importancia del autoconocimiento, la toma de decisiones responsables, la permanencia académica, la construcción de identidad profesional y el compromiso con el propio futuro.
     
     .bg-full-width.bg-color-3.mb-5
       .px-4.px-md-5.py-4
@@ -20,6 +20,6 @@
           .col-lg-auto
             img(src="@/assets/curso/intro/2.svg", style="max-width: 90px").mx-auto
           .col-lg.text-white
-            p.mb-0 La unidad busca que el estudiante analice el reglamento estudiantil y la Ley 30, reconozca los valores institucionales y los relacione con los retos sociales y laborales actuales. Organizada en tres temas —Ley 30 de 1992, Identidad Institucional y Vinculación con la Comunidad—, se apoya en actividades prácticas y reflexivas. Se espera que el estudiante participe activamente y fortalezca su sentido de pertenencia, compromiso ético y responsabilidad social como parte de su formación integral.
+            p.mb-0 Al finalizar esta unidad, se espera que el estudiante sea capaz de diseñar su proyecto de vida considerando sus dimensiones personales, académicas, sociales y profesionales, que identifique sus habilidades para la vida, que comprenda los retos de la adaptación universitaria y que proyecte una visión profesional fundamentada en su vocación y en los valores institucionales.   
 
 </template>
