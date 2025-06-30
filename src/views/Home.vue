@@ -22,7 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La Unidad 1 del curso “Proyecto de vida e identidad institucional” aborda los fundamentos legales y filosóficos de la educación superior en Colombia, centrándose en la Ley 30 de 1992, que establece principios como la autonomía, calidad, equidad y responsabilidad social. Se profundiza en la identidad de la Institución Tecnológica del Oriente, su misión, visión, valores y símbolos. Además, se resalta la vinculación con la comunidad mediante extensión, responsabilidad social y desarrollo sostenible. Esta formación busca generar profesionales éticos, comprometidos con la transformación social y el desarrollo integral.
+              p.descripcion.mb-4 La Unidad 2 “Proyecto de vida e identidad institucional” guía al estudiante en la construcción de un proyecto de vida integral, ético y flexible, articulado con la misión de la Institución Tecnológica del Oriente. Abarca tres temas: construcción del proyecto de vida (autoconocimiento, decisiones y dimensiones), adaptación estudiantil (retos, permanencia y pertenencia) y desarrollo personal y profesional (habilidades, vocación y planificación). La unidad promueve la reflexión, la autonomía y el compromiso, para formar ciudadanos conscientes, con visión crítica y responsabilidad social, capaces de transformar su entorno con propósito y valores.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

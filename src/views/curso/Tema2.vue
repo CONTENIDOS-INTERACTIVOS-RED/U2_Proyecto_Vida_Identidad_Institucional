@@ -1,592 +1,362 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'2. Identidad institucional'")
+  BannerInterno(:subTitulo="'2. Adaptación estudiantil'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     .row.mb-5
       .col-lg-4.order-lg-2.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema2/1.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema4/1.png", data-aos="zoom-in")
       .col-lg-8.order-lg-1
-        p(data-aos="fade-left") La identidad institucional es el alma que da sentido y coherencia a toda acción dentro de una institución de educación superior. Va más allá de su estructura física o administrativa: se manifiesta en su misión, visión, principios y valores, que reflejan tanto su propósito en la sociedad como su compromiso con la transformación humana.
+        p.mb-5(data-aos="fade-left") El ingreso a la educación superior constituye una de las transiciones más significativas en la vida de una persona. Este paso no solo implica un cambio académico, sino también una transformación personal, emocional y social. Requiere ajustes a nuevos entornos, normas, dinámicas y expectativas, por lo que la adaptación estudiantil se convierte en un eje clave dentro de la formación integral promovida por la Institución Tecnológica del Oriente.
     
         .bg-color-2.p-4(data-aos="fade-left")
           .row.align-items-start
             .col-lg-auto
-              img(src="@/assets/curso/tema2/2.svg", style="max-width: 90px").mx-auto
+              img(src="@/assets/curso/tema4/2.svg", style="max-width: 90px").mx-auto
             .col-lg
-              p.mb-0 Esta identidad no surge de manera espontánea. Es el resultado de un proyecto educativo consciente, arraigado en ideales de excelencia, inclusión, responsabilidad social y respeto por la dignidad humana. Así, cada acción institucional se convierte en una expresión de este proyecto y de los ideales que lo sustentan.
+              p.mb-0 Adaptarse a la vida universitaria supone enfrentar situaciones inéditas: nuevas metodologías de enseñanza, autonomía en la gestión del tiempo, relaciones sociales más amplias y diversas, presión académica, toma de decisiones personales y, en muchos casos, el distanciamiento del entorno familiar. Ante este panorama, es indispensable que el estudiante desarrolle herramientas para equilibrar su vida personal con las exigencias institucionales y avanzar con éxito hacia la permanencia y culminación de su proceso formativo.
     
-    h2.mb-5(data-aos="fade-left") Identidad institucional en la Institución Tecnológica del Oriente
-
     .row.mb-5
-      .col-lg-4.order-lg-2.mb-3.mb-lg-0
+      .col-lg-4.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema2/2.png", data-aos="zoom-in")
-      .col-lg-8.order-lg-1
-        p(data-aos="fade-left") En el caso específico de la Institución Tecnológica del Oriente, la identidad institucional se construye a partir de su historia, sus símbolos, y su permanente vocación de servicio. Elementos como el lema, los colores institucionales y los emblemas transmiten una visión del mundo centrada en la convicción de que la educación transforma realidades y forma ciudadanos comprometidos con el bien común.
+          img(src="@/assets/curso/tema4/2.png", data-aos="zoom-in")
+      .col-lg-8
+        p.mb-5(data-aos="fade-left") Desde esta perspectiva, el Proyecto Educativo Institucional (PEI) enfatiza la importancia de un acompañamiento constante al estudiante, centrado en el reconocimiento de su realidad, en la generación de oportunidades para su desarrollo y en la formación de personas comprometidas con su contexto. En concordancia, la Política de Permanencia Estudiantil plantea estrategias orientadas a fortalecer el vínculo con la institución, prevenir la deserción y promover el bienestar integral mediante acciones pedagógicas, psicosociales y administrativas.
     
         .bg-color-1.p-4(data-aos="fade-left")
-          p.mb-0 Esta identidad, cuando es asumida con amor, coherencia y orgullo, permea todas las prácticas —académicas, administrativas y sociales—, infundiendo en cada espacio educativo un profundo sentido de pertenencia.
-    
-    h2(data-aos="fade-left") Misión, visión y proyecto colectivo
-    p.mb-5 Comprender y apropiarse de la misión y visión institucionales permite al estudiante entender que su proceso formativo no es un proyecto individual, sino un camino compartido, que responde a un proyecto colectivo. Aquí, la formación académica está inseparablemente unida a:
-
-    .bg-full-width.bg-color-6
-      .p-4.p-md-5
-        .row.justify-content-center.align-items-stretch.mb-3
-          .col-lg-4.mb-3.mb-lg-0
-            .bg-color-9.p-4(data-aos="fade-left").h-100
-              .row.align-items-center
-                .col-lg-auto
-                  img(src="@/assets/curso/tema2/3.svg", style="max-width: 90px").mx-auto
-                .col-lg.text-white
-                  h5.mb-2 01
-                  p.mb-0 La responsabilidad ética
-          .col-lg-4.mb-3.mb-lg-0
-            .bg-color-9.p-4(data-aos="fade-left").h-100
-              .row.align-items-center
-                .col-lg-auto
-                  img(src="@/assets/curso/tema2/4.svg", style="max-width: 90px").mx-auto
-                .col-lg.text-white
-                  h5.mb-2 02
-                  p.mb-0 El servicio a la comunidad
-          .col-lg-4.mb-3.mb-lg-0
-            .bg-color-9.p-4(data-aos="fade-left").h-100
-              .row.align-items-center
-                .col-lg-auto
-                  img(src="@/assets/curso/tema2/5.svg", style="max-width: 90px").mx-auto
-                .col-lg.text-white
-                  h5.mb-2 03
-                  p.mb-0 La construcción de un entorno justo y sostenible
-    
-        p.mb-4 Cada experiencia universitaria, por tanto, se convierte también en un acto de afirmación de esta identidad.
-
-        h2.mb-5(data-aos="fade-left") Valores institucionales: más que palabras
-
-        .row.mb-5
-          .col-lg-4.mb-3.mb-lg-0
-            figure
-              img(src="@/assets/curso/tema2/6.png", data-aos="zoom-in")
-          .col-lg-8
-            p(data-aos="fade-left").mb-5 Los valores que guían el accionar institucional —responsabilidad, compromiso, respeto, excelencia y solidaridad— no son meras declaraciones decorativas. Están llamados a encarnarse en las actitudes y decisiones cotidianas de toda la comunidad educativa.
-        
-            .bg-color-2.p-4(data-aos="fade-left")
-              p.mb-0 Asumir estos valores con autenticidad implica comprender que cada estudiante, docente o colaborador proyecta hacia la sociedad la esencia de la institución. Representar dignamente esta identidad es parte del compromiso formativo.
+          p.mb-0 Comprender la adaptación estudiantil no solo permite afrontar con mayor solidez los desafíos propios de la vida universitaria, sino que también contribuye a la consolidación de competencias esenciales a lo largo de la vida, como la autonomía, la resiliencia, el compromiso y la autorregulación. Estas habilidades resultan claves en la construcción de un proyecto de vida integral y significativo.
 
     #t_2_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 2.1] Filosofía institucional: misión, visión, valores y principios.
-    
-    .row.mb-5
-      .col-lg-4.order-lg-2.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema2/7.png", data-aos="zoom-in")
-      .col-lg-8.order-lg-1
-        p(data-aos="fade-left") La filosofía institucional de una institución de educación superior representa el núcleo que da sentido a su existencia. No se trata sólo de declaraciones formales; es el reflejo de sus convicciones más profundas, de su compromiso con la sociedad y de su propuesta educativa para formar ciudadanos íntegros y agentes de transformación.
-        p En la Institución Tecnológica del Oriente, la filosofía institucional guía cada paso, cada decisión y cada relación, consolidando una cultura de excelencia, humanidad y responsabilidad.
-
-    
-        .bg-color-1.p-4.mb-5(data-aos="fade-left")
-          h5 ¿Qué es la Filosofía Institucional?
-          p.mb-0 La filosofía institucional es el conjunto de principios, valores, misión y visión que definen la razón de ser, el propósito y la dirección de una institución educativa.
-        
-        p Esta filosofía no es un concepto abstracto: se vive en las aulas, en los pasillos, en los proyectos de investigación, en el trato entre estudiantes y docentes, en el servicio a la comunidad.
-    
-    h2.mb-5(data-aos="fade-left") La misión institucional: El propósito que Inspira
-
-    .row.mb-5
-      .col-lg-4.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema2/8.png", data-aos="zoom-in")
-      .col-lg-8
-        p(data-aos="fade-left") La misión de una institución responde a la pregunta fundamental:
-        h5 ¿Para qué existe?
-        p.mb-5 En el caso de la Institución Tecnológica del Oriente, la misión es clara: formar profesionales integrales, éticos, competentes y comprometidos con el desarrollo sostenible y el bienestar social.
-        .bg-color-5.p-4.mb-3(data-aos="fade-left")
-          h5 Misión institucional
-          p.mb-0 "La Institución Tecnológica del Oriente tiene como misión la formación de seres humanos íntegros, capaces de transformar su entorno con responsabilidad social, ética profesional, innovación tecnológica y respeto por la dignidad humana."
-        p Esta declaración refleja que cada estudiante no es solo un receptor de conocimiento, sino un protagonista activo en la transformación de su vida y de la sociedad.
-    
-    .row.mb-5
-      .col-lg-4.order-lg-2.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema2/9.png", data-aos="zoom-in")
-      .col-lg-8.order-lg-1
-        h2(data-aos="fade-left") La visión institucional: el futuro que se construye
-        p(data-aos="fade-left") La visión responde a otra pregunta esencial:
-        h5 ¿Hacia dónde se dirige la institución?
-        p.mb-5 Visualizar el futuro permite orientar los esfuerzos actuales hacia una meta compartida.
-        .bg-color-4.p-4.mb-5(data-aos="fade-left")
-          h5 Visión institucional
-          p.mb-0 "La Institución Tecnológica del Oriente será reconocida nacional e internacionalmente por su excelencia académica, su compromiso con la innovación, su aporte al desarrollo social y su liderazgo en la formación de profesionales éticos y responsables."
-        p La visión establece un horizonte de grandeza que no solo motiva, sino que compromete a cada miembro de la comunidad educativa a construirlo día a día.
-    
-
-    h2(data-aos="fade-left") Principios institucionales: las rutas que guían
-    p.mb-5 Los principios institucionales son las bases éticas y pedagógicas que orientan el actuar de la institución. Son las rutas invisibles pero firmes que garantizan que la misión y la visión no sean simples aspiraciones, sino realidades cotidianas.
-
-    .bg-full-width.bg-color-6
-      .px-4.px-md-5.pb-md-3
-        .row.justify-content-center.mb-5
-          .col-lg-8.mb-3.mb-lg-0.order-lg-2
-            SlyderF(columnas="col-12 col-lg-6")
-              .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema2/11.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Responsabilidad social
-                p.text-center Cada acción educativa debe tener un impacto positivo en la comunidad.
-              .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema2/12.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Pertinencia
-                p.text-center La formación debe responder a las necesidades reales del entorno social y laboral.  
-              .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema2/13.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Excelencia académica
-                p.text-center La calidad debe ser un compromiso permanente en todos los procesos institucionales.
-              .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema2/14.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Innovación
-                p.text-center Se fomenta la creatividad y la búsqueda de soluciones nuevas a los problemas contemporáneos.
-              .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema2/15.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Respeto por la dignidad humana
-                p.text-center Cada persona es un fin en sí misma, no un medio para otros fines.
-    
-          .col-lg-4.order-lg-1
-            figure
-              img(src='@/assets/curso/tema2/10.png', alt='')
-
-        .bg-full-width.bg-color-9.mb-5
-          .px-4.px-md-5.py-4
-            .row.align-items-center
-              .col-lg-auto
-                img(src="@/assets/curso/tema2/16.svg", style="max-width: 90px").mx-auto
-              .col-lg.text-white
-                p.mb-0 Estos principios construyen una cultura institucional que promueve el respeto, la equidad, la creatividad y la solidaridad.
-        
-        h2(data-aos="fade-left") Valores institucionales: la fuerza del carácter
-        p.mb-5 Los valores son las creencias profundas que configuran la identidad ética de la institución. Son, en palabras sencillas, el "corazón" que late detrás de cada acción educativa. La lista de valores institucionales es:
-
-        .row.justify-content-center.mb-5
-          .col-lg-8.mb-3.mb-lg-0
-            SlyderF(columnas="col-12 col-lg-6")
-              .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema2/18.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Responsabilidad
-                p.text-center Cumplir con los deberes académicos, sociales y personales con seriedad y compromiso.
-              .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema2/19.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Honestidad
-                p.text-center Actuar con transparencia, verdad y rectitud en todas las acciones.
-              .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema2/20.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Respeto
-                p.text-center Reconocer y valorar la dignidad, la diversidad y los derechos de todas las personas.
-              .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema2/21.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Solidaridad
-                p.text-center Promover el apoyo mutuo y la construcción de comunidades más justas.
-              .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema2/22.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Innovación
-                p.text-center Buscar constantemente nuevas formas de crear, mejorar y transformar.
-              .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema2/23.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Calidad
-                p.text-center Procurar la excelencia en todos los ámbitos de desempeño.
-    
-          .col-lg-4
-            figure
-              img(src='@/assets/curso/tema2/17.png', alt='')
-        
-        h2.mb-5(data-aos="fade-left") La filosofía institucional en la vida cotidiana
-    
-    .bg-full-width.bg-color-7.mb-5
-      .px-4.px-md-5
-        .row.justify-content-center.align-items-center
-          .col-lg-12
-            .row.justify-content-center.align-items-center
-              .col-lg-8(data-aos="fade-left").mb-3.mb-lg-0.order-lg-2
-                p Asumir la filosofía institucional implica más que conocer los documentos oficiales. Significa vivirla cada día:
-                ul.lista-ul--color
-                  li.mb-0.d-flex
-                    i.far.fa-arrow-alt-circle-right
-                    p.mb-0 En el aula. Cuando un docente enseña con pasión y ética, y un estudiante aprende con responsabilidad.
-                  li.mb-0.d-flex
-                    i.far.fa-arrow-alt-circle-right
-                    p.mb-0 En los proyectos. Cuando se aplican conocimientos para resolver problemas reales de la comunidad.
-                  li.mb-0.d-flex
-                    i.far.fa-arrow-alt-circle-right
-                    p.mb-0 En la investigación. Cuando se busca innovar no solo por prestigio, sino para transformar vidas.
-                  li.mb-0.d-flex
-                    i.far.fa-arrow-alt-circle-right
-                    p.mb-0 En la convivencia. Cuando se respetan las diferencias, se promueve el diálogo y se construye comunidad.
-              .col-lg-4(data-aos="zoom-in").order-lg-1
-                img.img-fluid(src='@/assets/curso/tema2/24.svg', style="max-width:486px", alt="" ).mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
-
-    .row.mb-5
-      .col-lg-4.order-lg-2.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema2/25.png", data-aos="zoom-in")
-      .col-lg-8.order-lg-1
-        p(data-aos="fade-left") La filosofía institucional se expresa también en los pequeños gestos cotidianos: en la honestidad de un examen, en el respeto en una discusión académica, en el compromiso.
-        .bg-color-4.p-4.mb-5(data-aos="fade-left")
-          p.mb-0 Cada estudiante que ingresa a la Institución Tecnológica del Oriente se convierte en heredero y a la vez en constructor de esta filosofía institucional. Ser parte de esta comunidad educativa implica asumir el desafío de formarse no solo como profesional competente, sino como ser humano íntegro, solidario y transformador.
-        p La misión, la visión, los principios y los valores no son palabras distantes: son llamados vivos a actuar con sentido, a construir futuro, a dejar una huella imborrable en la historia personal y colectiva. Asumir la filosofía institucional con amor y compromiso es, en últimas, un acto de fe en la educación como el camino más noble hacia la transformación del mundo.
-
-    #t_2_2.titulo-segundo(data-aos="flip-up")
-      h2 #[span 2.2] Símbolos institucionales y sentido de pertenencia
-    
-    .row.mb-5
-      .col-lg-4.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema2/26.png", data-aos="zoom-in")
-      .col-lg-8
-        .bg-color-2.p-4.mb-5(data-aos="fade-left")
-          p.mb-0 En toda institución educativa, los símbolos institucionales representan mucho más que simples emblemas gráficos: son la manifestación visible de su identidad, su historia y sus valores. A través de ellos, se consolida el sentido de pertenencia y se fortalece el vínculo emocional de los miembros de la comunidad con su alma mater. En la Institución Tecnológica del Oriente, los símbolos institucionales son expresiones vivas de su misión formativa, su compromiso ético y su visión de transformación social.
-        p(data-aos="fade-left").mb-5 La comprensión profunda de los símbolos no solo implica reconocerlos visualmente, sino interiorizarlos como parte de la propia identidad. Cada símbolo cuenta una historia, transmite una aspiración y une generaciones en torno a un mismo ideal.
+      h2 #[span 2.1] Transición a la vida universitaria
     
     .row.mb-5
       .col-lg-4.mb-3.mb-lg-0.order-lg-2
         figure
-          img(src="@/assets/curso/tema2/27.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema4/3.png", data-aos="zoom-in")
       .col-lg-8.order-lg-1
-        .bg-color-5.p-4.mb-5(data-aos="fade-left")
-          h5 ¿Qué son los símbolos institucionales?
-          p.mb-0 Los símbolos institucionales son representaciones visuales, verbales o materiales que condensan la esencia, valores y aspiraciones de una institución.
-        p(data-aos="fade-left").mb-5 Estos elementos facilitan el sentido de identidad colectiva, promueven el orgullo institucional y proyectan hacia la sociedad una imagen coherente y sólida.
+        p.mb-5(data-aos="fade-left") El ingreso a la educación superior representa una de las transiciones más relevantes en el ciclo vital de una persona. Este paso no solo supone un cambio académico, sino un proceso de ajuste y reconfiguración que impacta diversas áreas de la vida: organización personal, toma de decisiones, autorregulación emocional y relaciones sociales. Esta transición no ocurre de manera automática ni uniforme, ya que está mediada por factores individuales, sociales, institucionales y académicos que inciden directamente en el proceso de adaptación.
     
-    h2.mb-5(data-aos="fade-left") Los símbolos principales de la Institución Tecnológica del Oriente
+        .bg-color-5.p-4(data-aos="fade-left")
+          p.mb-0 La Corporación Escuela Tecnológica del Oriente, en coherencia con su misión institucional, reconoce la complejidad de este tránsito y ha diseñado una Política de Permanencia Estudiantil orientada al acompañamiento desde el ingreso hasta la graduación. Dicha política se fundamenta en tres pilares: identificación oportuna de factores de riesgo, implementación de estrategias de apoyo integral y seguimiento continuo de cada caso.
+    
+    h2.mb-5(data-aos="fade-left") Retos en el tránsito a la universidad
 
-    .bg-full-width.bg-color-7.mb-5
-      .p-4.p-md-5
-        .row.justify-content-center.align-items-center
-          .col-lg-12
-            .row.justify-content-center.align-items-center
-              .col-lg-8(data-aos="fade-left").mb-3.mb-lg-0.order-lg-2
-                h5 El logo institucional
-                p El logo es la imagen más reconocible de una institución. Refleja, en su diseño y colores, los principios que guían su accionar.
-                h5 Elementos del logo:
-                ul.lista-ul--color
-                  li.mb-0.d-flex
-                    i.far.fa-arrow-alt-circle-right
-                    p.mb-0 Formas geométricas que simbolizan estabilidad, orden y progreso.
-                  li.mb-0.d-flex
-                    i.far.fa-arrow-alt-circle-right
-                    p.mb-0 Colores que evocan el conocimiento, la esperanza, el compromiso social y el crecimiento.
-                h5 Interpretación simbólica
-                p El logo de la Institución Tecnológica del Oriente representa el camino hacia el conocimiento y la transformación. Cada línea, cada trazo, es una invitación a caminar con firmeza, ética y creatividad hacia un futuro mejor. El logo no solo identifica; inspira, convoca, une.
-
-              .col-lg-4(data-aos="zoom-in").order-lg-1
-                img.img-fluid(src='@/assets/curso/tema2/28.svg', style="max-width:486px", alt="" ).mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
-    
-    h2(data-aos="fade-left") La bandera institucional
-    p.mb-5 La bandera institucional ondea como un llamado constante a la unidad y al orgullo.
-
-    .bg-full-width.bg-color-info
-      .p-4.p-md-5
-        .row.justify-content-center.align-items-center
-          .col-lg-6
-            ImagenInfografica.color-secundario
-              template(v-slot:imagen)
-                figure
-                  img(src='@/assets/curso/tema2/29.svg', alt='', style="max-width: 1106px;").mx-auto
-    
-              .bg-color-white.box-shadow.p-3(x="17%" y="76%" numero="+")
-                h5 Naranja
-                p Representa alegría, creatividad y calidez, características de la comunidad educativa. También simboliza el trabajo en equipo y la colaboración mutua.
-    
-              .bg-color-white.box-shadow.p-3(x="50%" y="76%" numero="+")
-                h5 Blanco
-                p Rinde homenaje a la paz y a la supremacía de los seres humanos que se unen para construir humanidad. El símbolo institucional se sitúa sobre esta franja.
-    
-              .bg-color-white.box-shadow.p-3(x="83%" y="76%" numero="+")
-                h5 Verde
-                p Evoca la esmeralda, resaltando el valor del compromiso institucional con el desarrollo tecnológico sostenible.
-    
-    .bg-full-width.bg-color-2.mb-5
-      .px-4.px-md-5.py-4
-        .row.align-items-center
-          .col-lg-auto
-            img(src="@/assets/curso/tema2/30.svg", style="max-width: 90px").mx-auto
-          .col-lg
-            p.mb-0 La bandera ondea en ceremonias oficiales, actos académicos y eventos institucionales como símbolo visible del espíritu que anima a toda la comunidad educativa.
-    
-    h2.mb-5(data-aos="fade-left") El lema institucional
-    
     .row.mb-5
       .col-lg-4.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema2/31.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema4/4.png", data-aos="zoom-in")
       .col-lg-8
-        .bg-color-4.p-4.mb-5(data-aos="fade-left")
-          h5 "Aprender a convertirme."
-          p Este lema sintetiza la filosofía educativa de la Institución Tecnológica del Oriente.
-          p.mb-0 No se concibe el proceso educativo como la mera adquisición de conocimientos técnicos o teóricos; se entiende como un camino de transformación personal, social y profesional.
-
-        p(data-aos="fade-left") <b>"Aprender a convertirse"</b> expresa que el aprendizaje verdadero implica un cambio profundo en la manera de comprender el mundo, en la forma de actuar en él y en la responsabilidad que cada ser humano asume frente a su propio desarrollo y al de su entorno.
-        p Así, el lema institucional inspira a cada estudiante a asumir su formación como un proceso de construcción de sí mismo, orientado al servicio y a la transformación de la sociedad.
+        p.mb-4(data-aos="fade-left") La transición del bachillerato a la educación superior implica una ruptura con las dinámicas educativas previas. Las nuevas metodologías de enseñanza, la autonomía en la gestión del tiempo, la toma de decisiones académicas y personales, y la exigencia evaluativa conforman una nueva realidad. Además, se presentan desafíos personales como el distanciamiento del entorno familiar, la construcción de nuevas relaciones sociales y la presión por responder a las expectativas propias y ajenas.
     
-    h2.mb-5(data-aos="fade-left") El sentido de pertenencia institucional
+        .bg-color-4.p-5(data-aos="fade-left")
+          p.mb-0 El Proyecto Educativo Institucional (PEI) resalta que la formación integral debe acompañar esta etapa, no solo para la adquisición de conocimientos técnicos, sino también para el desarrollo de habilidades para la vida que promuevan un desempeño ético, responsable y comprometido con la sociedad.
 
-    
     .bg-full-width.bg-color-6.mb-5
-      .px-4.px-md-5
-        .row.mb-5
-          .col-lg-4.mb-3.mb-lg-0.order-lg-2
-            figure
-              img(src="@/assets/curso/tema2/32.png", data-aos="zoom-in")
-          .col-lg-8.order-lg-1
-            .bg-color-5.p-5.mb-3(data-aos="fade-left")
-              p.mb-0 El sentido de pertenencia es un sentimiento que emerge del reconocimiento y la valoración de los símbolos, la misión, la visión y los valores institucionales. Es el vínculo afectivo y racional que une a cada estudiante, docente y colaborador con la Institución Tecnológica del Oriente.
-            p(data-aos="fade-left").mb-5 El reconocimiento de los símbolos no es un acto superficial. Al identificarse con la bandera, el logo y el lema, cada miembro de la comunidad fortalece su identidad institucional, asumiendo con orgullo el compromiso de vivir y proyectar los valores que la institución representa. Los factores que fortalecen el sentido de pertenencia son:
+      .px-4.px-md-5.py-4
 
-        div.row.justify-content-center.align-items-stretch.mb-5
+        h2(data-aos="fade-left") Factores que inciden en la adaptación
+        p.mb-5 La Política de Permanencia Estudiantil identifica cuatro categorías de factores que pueden afectar la adaptación universitaria:
+
+        div.row.justify-content-center.align-items-stretch
           div.col-lg-3.mb-4(data-aos="zoom-in-up")
             div.bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema2/33.svg" alt="" style="width: 90px")
-              h5.text-center Reconocimiento de los símbolos
-              p.mb-0.text-center Visualizar en cada acto, documento o comunicación el logo y la bandera fortalece la identidad.
+              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema4/5.svg" alt="" style="width: 90px")
+              h5.text-center Individuales
+              p.mb-0.text-center Autoestima, habilidades sociales, competencias emocionales, estilos de aprendizaje, hábitos de estudio y estado de salud mental.
           div.col-lg-3.mb-4(data-aos="zoom-in-up")
             div.bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema2/34.svg" alt="" style="width: 90px")
-              h5.text-center Apropiación del lema
-              p.mb-0.text-center Comprender y asumir "aprender a convertirse" como principio personal de formación integral.
+              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema4/6.svg" alt="" style="width: 90px")
+              h5.text-center Académicos
+              p.mb-0.text-center Preparación previa, brechas de conocimiento, adaptación a nuevas metodologías de enseñanza y evaluación, expectativas sobre el rendimiento académico.
           div.col-lg-3.mb-4(data-aos="zoom-in-up")
             div.bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema2/35.svg" alt="" style="width: 90px")
-              h5.text-center Participación activa
-              p.mb-0.text-center Involucrarse en las actividades académicas, culturales y de proyección social.
+              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema4/7.svg" alt="" style="width: 90px")
+              h5.text-center Institucionales
+              p.mb-0.text-center Políticas internas, procesos administrativos, comunicación institucional, accesibilidad a servicios de apoyo.
           div.col-lg-3.mb-4(data-aos="zoom-in-up")
             div.bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema2/36.svg" alt="" style="width: 90px")
-              h5.text-center Respeto por los valores institucionales
-              p.mb-0.text-center Actuar en coherencia con los principios de responsabilidad, ética y compromiso social.
+              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema4/8.svg" alt="" style="width: 90px")
+              h5.text-center Socioeconómicos
+              p.mb-0.text-center Condición económica, acceso a recursos, responsabilidades familiares o laborales, y condiciones del entorno social del estudiante.
+    
+    .bg-full-width.bg-color-9.mb-5
+      .px-4.px-md-5.py-4
+        .row.align-items-center
+          .col-lg-auto
+            img(src="@/assets/curso/tema4/9.svg", style="max-width: 90px").mx-auto
+          .col-lg.text-white
+            p.mb-0 Reconocer estos factores permite diseñar estrategias de intervención tanto individual como colectiva que favorezcan la adaptación y reduzcan el riesgo de deserción.
+    
+    h2(data-aos="fade-left") Etapas del acompañamiento institucional
+    p.mb-5 A continuación, se presenta un recurso educativo que describe las etapas del acompañamiento institucional, detallando sus objetivos, acciones y el impacto que cada fase tiene en la trayectoria formativa del estudiante.
+
+    .bg-full-width.bg-fondo-slider.mb-5
+      .p-4.p-md-5
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/9cqLwqWDCzs?si=F1b2M6SlLRnGqFf9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
+    h2.mb-5(data-aos="fade-left") El papel del estudiante
+
+    .row.mb-5
+      .col-lg-4.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema4/10.png", data-aos="zoom-in")
+      .col-lg-8
+        p(data-aos="fade-left") Si bien la institución ofrece herramientas para facilitar la adaptación, el éxito del proceso también depende de la disposición activa del estudiante. Se espera que asuma con responsabilidad y autonomía su formación, desarrollando habilidades como la autorregulación, la comunicación asertiva, la participación y la capacidad para pedir ayuda.
+    
+        .bg-color-1.p-5(data-aos="fade-left")
+          p.mb-0 El Reglamento Estudiantil establece que el estudiante debe respetar las normas institucionales, cumplir con las actividades académicas y aprovechar los recursos dispuestos para su acompañamiento. La adaptación es, por tanto, una tarea compartida entre la institución y el estudiante.
+    
+    h2.mb-5(data-aos="fade-left") El sentido de pertenencia
+
+    .row.mb-5
+      .col-lg-4.mb-3.mb-lg-0.order-lg-2
+        figure
+          img(src="@/assets/curso/tema4/11.png", data-aos="zoom-in")
+      .col-lg-8.order-lg-1
+        p(data-aos="fade-left") Un elemento clave en la adaptación universitaria es el fortalecimiento del sentido de pertenencia institucional. Cuando el estudiante se identifica con los valores, la misión y la visión de la institución, aumenta su compromiso y motivación para continuar su proceso formativo. Las actividades extracurriculares, los espacios de participación estudiantil y las redes de apoyo entre pares son fundamentales para consolidar una identidad colectiva.
+    
+        .bg-color-2.p-5(data-aos="fade-left")
+          p.mb-0 La Política de Permanencia señala que la creación de ambientes inclusivos, respetuosos y participativos contribuye a una cultura institucional centrada en el bienestar y la corresponsabilidad, lo cual impacta positivamente en la retención y el éxito académico.
+    
+    #t_2_2.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.2] Retos y factores de permanencia
+  
+    .row.mb-5
+      .col-lg-4.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema4/12.png", data-aos="zoom-in")
+      .col-lg-8
+        p(data-aos="fade-left") La permanencia en la educación superior constituye un reto complejo que involucra múltiples dimensiones: personales, académicas, institucionales y sociales. Culminar exitosamente un programa de formación no depende únicamente del esfuerzo individual, sino también de la existencia de condiciones favorables que acompañen y fortalezcan al estudiante a lo largo de su trayectoria académica.
+    
+        .bg-color-5.p-5(data-aos="fade-left")
+          p.mb-0 La Institución Tecnológica del Oriente, a través de su Política de Permanencia Estudiantil, reconoce esta realidad y propone una estructura de acompañamiento integral orientada a mitigar los riesgos de deserción, favorecer la continuidad y promover la graduación oportuna.
+
+    .bg-full-width.bg-color-6
+      .px-4.px-md-5.py-4
+
+        h2(data-aos="fade-left") Factores que inciden en la permanencia
+        p.mb-5 La política institucional clasifica los factores de deserción en cuatro grandes categorías, cada una con implicaciones directas en la experiencia universitaria:
+
+        div.row.justify-content-center.align-items-stretch
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema4/13.svg" alt="" style="width: 90px")
+              h5.text-center Individuales
+              p.mb-0.text-center Autoestima, habilidades comunicativas, motivación, gestión emocional, salud física y mental, madurez y sentido de responsabilidad.
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema4/14.svg" alt="" style="width: 90px")
+              h5.text-center Académicos
+              p.mb-0.text-center Brechas en competencias básicas, hábitos de estudio deficientes, bajo rendimiento, dificultades con contenidos, idioma o metodologías de enseñanza.
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema4/15.svg" alt="" style="width: 90px")
+              h5.text-center Institucionales
+              p.mb-0.text-center Procesos administrativos complejos, falta de acceso a información clara, debilidad en la comunicación institucional y baja disponibilidad de servicios de apoyo.
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema4/16.svg" alt="" style="width: 90px")
+              h5.text-center Socioeconómicos
+              p.mb-0.text-center Limitaciones económicas, necesidad de trabajar, responsabilidades familiares, condiciones de transporte o vivienda, carencia de redes de apoyo.
 
     .bg-full-width.bg-color-9.mb-5
       .px-4.px-md-5.py-4
         .row.align-items-center
           .col-lg-auto
-            img(src="@/assets/curso/tema2/16.svg", style="max-width: 90px").mx-auto
+            img(src="@/assets/curso/tema4/9.svg", style="max-width: 90px").mx-auto
           .col-lg.text-white
-            p.mb-0 El sentido de pertenencia se consolida también mediante la participación activa en la vida universitaria, la apropiación de los principios formativos y la proyección de los valores institucionales en todos los ámbitos de actuación personal y profesional.
-      
-    h2.mb-5(data-aos="fade-left") Vivir los símbolos: una tarea diaria
-     
+            p.mb-0 El reconocimiento de estos factores permite diseñar intervenciones pertinentes y diferenciadas, orientadas a garantizar la permanencia y el bienestar estudiantil.
+
+    h2.mb-5(data-aos="fade-left") Retos comunes en la vida universitaria
+    
     .row.mb-5
       .col-lg-4.order-lg-2.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema2/37.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema4/17.png", data-aos="zoom-in")
       .col-lg-8.order-lg-1
-        p(data-aos="fade-left") Vivir los símbolos institucionales implica más que conocer su existencia. Requiere asumirlos como parte del propio ser, reflejarlos en las actitudes cotidianas y proyectarlos hacia el entorno.
-        .bg-color-2.p-5(data-aos="fade-left")
-          p.mb-0 Cuando un estudiante porta con orgullo la camiseta institucional, respeta la bandera, actúa conforme al lema y hace honor a los valores enseñados, está encarnando la filosofía de la Institución Tecnológica del Oriente. Así, cada acción se convierte en testimonio vivo del proyecto educativo que la institución representa.
-
-    #t_2_3.titulo-segundo(data-aos="flip-up")
-      h2 #[span 2.3] Deber ser institucional: fundamentos éticos y sociales
-
-    .row.mb-5
+        p(data-aos="fade-left") Durante su trayectoria académica, los estudiantes suelen enfrentarse a múltiples desafíos que pueden afectar su rendimiento y continuidad. Entre los más frecuentes se encuentran:
+    
+        .bg-color-2.p-4.mb-5(data-aos="fade-left")
+          ul.lista-ul--color
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Sobrecarga académica y desorganización del tiempo.
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Desmotivación frente al programa o la carrera elegida.
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Dificultades para integrarse a la comunidad universitaria.
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Problemas familiares, emocionales o de salud.
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Restricciones económicas y falta de apoyos institucionales eficaces.
+        p La ausencia de una red institucional sólida que detecte estos riesgos y actúe oportunamente puede agravar la situación y conducir al abandono académico.
+    
+    h2(data-aos="fade-left") Estrategias institucionales de acompañamiento
+    p.mb-5 Desde el área de Bienestar Institucional, la Institución Tecnológica del Oriente ha diseñado un programa integral de permanencia que se articula en tres fases
+    
+    .row.align-items-center.mb-5
       .col-lg-4.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema2/38.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema4/18.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
       .col-lg-8
-        p.mb-5(data-aos="fade-left") El deber ser institucional expresa los ideales éticos y sociales que guían la misión formativa, la organización y la proyección social de una institución de educación superior. No se trata de normas abstractas ni de simples formulaciones teóricas; son principios vivos que orientan cada decisión, cada proyecto y cada interacción dentro de la comunidad académica.
-        .bg-color-4.p-4(data-aos="fade-left")
-          p.mb-0 En el caso de la Institución Tecnológica del Oriente, el deber ser institucional está sólidamente fundamentado en su Proyecto Educativo Institucional (PEI), el Reglamento Estudiantil y los principios rectores establecidos en la Ley 30 de 1992. Estos documentos establecen un marco de referencia claro que compromete a toda la comunidad educativa a actuar con ética, responsabilidad social y compromiso transformador.
-
-    .bg-full-width.bg-color-6.mb-5
-      .px-4.px-md-5
-        h2(data-aos="fade-left") Principios éticos que fundamentan el deber ser
-        p.mb-5 Según el Proyecto Educativo Institucional, el actuar de la institución y de sus miembros debe estar regido por principios fundamentales, entre los cuales destacan:
-
-        div.row.justify-content-center.align-items-stretch.mb-5
-          div.col-lg-3.mb-4(data-aos="zoom-in-up")
-            div.bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema2/39.svg" alt="" style="width: 90px")
-              h5.text-center Responsabilidad social
-              p.mb-0.text-center Cada acción educativa debe buscar un impacto positivo en la comunidad, fortaleciendo el tejido social.
-          div.col-lg-3.mb-4(data-aos="zoom-in-up")
-            div.bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema2/40.svg" alt="" style="width: 90px")
-              h5.text-center Respeto por la dignidad humana
-              p.mb-0.text-center Se reconoce a cada persona como un ser único, merecedor de trato digno, sin discriminación alguna.
-          div.col-lg-3.mb-4(data-aos="zoom-in-up")
-            div.bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema2/41.svg" alt="" style="width: 90px")
-              h5.text-center Ética profesional
-              p.mb-0.text-center Se fomenta en los estudiantes el actuar con honestidad, integridad y responsabilidad en su futuro desempeño laboral.
-          div.col-lg-3.mb-4(data-aos="zoom-in-up")
-            div.bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema2/42.svg" alt="" style="width: 90px")
-              h5.text-center Compromiso con el desarrollo sostenible
-              p.mb-0.text-center La formación académica debe contribuir a la construcción de un entorno sostenible y respetuoso con el medio ambiente.
+        LineaTiempoD.color-primario.large-2(data-aos="fade-left")
+          p(numero="1" titulo="Diagnóstico e inicio") Aplicación de caracterización inicial para identificar riesgos y fortalezas. Diseño de planes de acompañamiento desde el ingreso.
+          p(numero="2" titulo="Inmersión académica") Tutorías, talleres de nivelación, seguimiento académico personalizado, jornadas de inducción y orientación por docentes y personal de Bienestar durante el primer semestre.
+          p(numero="3" titulo="Apoyo integral permanente") Asesoría psicológica, consejería, monitoreo académico, programas de monitores-tutores, talleres de habilidades para la vida y promoción de estilos de vida saludables durante toda la formación.
 
     .bg-full-width.bg-color-9.mb-5
       .px-4.px-md-5.py-4
         .row.align-items-center
           .col-lg-auto
-            img(src="@/assets/curso/tema2/16.svg", style="max-width: 90px").mx-auto
+            img(src="@/assets/curso/tema4/19.svg", style="max-width: 90px").mx-auto
           .col-lg.text-white
-            p.mb-0 Estos principios no son solo aspiraciones: están incorporados en los perfiles de formación, los reglamentos internos, los programas académicos y las actividades de extensión y proyección social.
+            p.mb-0 Estas acciones tienen un carácter preventivo, están articuladas entre distintas áreas institucionales y se centran en el ser humano como eje del proceso educativo. Su impacto se evalúa mediante planes de mejora y seguimiento semestral y anual.
     
-    h2.mb-5(data-aos="fade-left") Bases normativas: Ley 30 de 1992 y la organización del deber ser
+    h2.mb-5(data-aos="fade-left") La corresponsabilidad como principio formativo
+
+    .row.mb-5
+      .col-lg-4.order-lg-2.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema4/20.png", data-aos="zoom-in")
+      .col-lg-8.order-lg-1
+        p.mb-5(data-aos="fade-left") Aunque la institución brinda herramientas, el éxito en la permanencia requiere del compromiso activo del estudiante. Este debe asistir con regularidad a clases, organizar su tiempo, gestionar sus recursos, pedir apoyo cuando lo necesite y participar en las actividades que la institución le ofrece.
+    
+        .bg-color-5.p-4(data-aos="fade-left")
+          p.mb-0 El Reglamento Estudiantil subraya que el estudiante tiene tanto el derecho a recibir acompañamiento, como el deber de cumplir con sus obligaciones académicas y formativas.
+    
+    h2.mb-5(data-aos="fade-left") Permanencia, calidad educativa y proyecto de vida
 
     .row.mb-5
       .col-lg-4.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema2/43.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema4/21.png", data-aos="zoom-in")
       .col-lg-8
-        p(data-aos="fade-left").mb-5 La Ley 30 de 1992 establece que la educación superior tiene como objetivo, entre otros, "profundizar en la formación integral de los colombianos", promoviendo la ética, la solidaridad, la convivencia pacífica y la responsabilidad social (Congreso de Colombia, 1992, art. 6).
+        p.mb-5(data-aos="fade-left") El Proyecto Educativo Institucional (PEI) sostiene que la permanencia no es solo una estrategia para evitar la deserción, sino un pilar de la calidad educativa. Cada estudiante que permanece y culmina su formación representa la concreción del proyecto institucional y la realización de un proyecto de vida con sentido.
     
         .bg-color-2.p-4(data-aos="fade-left")
-          p.mb-0 De acuerdo con la Ley, las instituciones de educación superior deben actuar en un marco de libertad académica y autonomía, pero siempre dentro de los principios constitucionales de respeto por los derechos humanos, la diversidad cultural, la paz y el desarrollo social. Así, el deber ser institucional no es una opción, sino un mandato legal y ético que compromete a todos los actores educativos.
-    
-    h2(data-aos="fade-left") Manifestaciones del deber ser en la Institución Tecnológica del Oriente
-    p.mb-5 El deber ser institucional representa el eje articulador de la misión educativa de la Institución Tecnológica del Oriente. No se trata de una declaración simbólica, sino de una guía activa que orienta las prácticas formativas, sociales y éticas de la comunidad educativa. A través de diversos niveles y procesos, esta visión se traduce en acciones concretas que impactan en la vida del estudiante y de la sociedad. Los niveles de expresión del deber ser son: 
+          p.mb-0 Fomentar la permanencia significa también promover el desarrollo humano integral, la inclusión, la equidad educativa y la movilidad social. Por ello, garantizarla no implica solo evitar el abandono, sino consolidar una experiencia universitaria de calidad y fortalecer el vínculo entre el estudiante y la institución.
 
-    .row.align-items-center.mb-5
-      .col-lg-4.order-lg-2.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema2/44.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
-      .col-lg-8.order-lg-1
-        LineaTiempoD.color-primario.large-2(data-aos="fade-left")
-          div(numero="1" titulo="Formación integral") 
-            p Según el PEI, la formación debe ir más allá de las competencias técnicas. Se promueve:
-            ul.lista-ul--color
-              li.mb-0.d-flex
-                i.far.fa-arrow-alt-circle-right
-                p.mb-0 Pensamiento crítico
-              li.mb-0.d-flex
-                i.far.fa-arrow-alt-circle-right
-                p.mb-0 Habilidades sociales y ciudadanas
-              li.mb-0.d-flex
-                i.far.fa-arrow-alt-circle-right
-                p.mb-0 Ética profesional e investigativa
-          div(numero="2" titulo="Convivencia basada en el respeto") 
-            p El Reglamento Estudiantil establece normas que promueven:
-            ul.lista-ul--color
-              li.mb-0.d-flex
-                i.far.fa-arrow-alt-circle-right
-                p.mb-0 Trato digno a todas las personas
-              li.mb-0.d-flex
-                i.far.fa-arrow-alt-circle-right
-                p.mb-0 Respeto a la diversidad
-              li.mb-0.d-flex
-                i.far.fa-arrow-alt-circle-right
-                p.mb-0 Diálogo y construcción colectiva
-          div(numero="3" titulo="Proyección social") 
-            p Se fomenta el compromiso con el entorno mediante:
-            ul.lista-ul--color
-              li.mb-0.d-flex
-                i.far.fa-arrow-alt-circle-right
-                p.mb-0 Prácticas profesionales orientadas al servicio
-              li.mb-0.d-flex
-                i.far.fa-arrow-alt-circle-right
-                p.mb-0 Proyectos de extensión universitaria
-              li.mb-0.d-flex
-                i.far.fa-arrow-alt-circle-right
-                p.mb-0 Responsabilidad social universitaria
-          div(numero="4" titulo="Participación estudiantil") 
-            p Considerada tanto un derecho como un deber. Se fortalece:
-            ul.lista-ul--color
-              li.mb-0.d-flex
-                i.far.fa-arrow-alt-circle-right
-                p.mb-0 La ciudadanía democrática
-              li.mb-0.d-flex
-                i.far.fa-arrow-alt-circle-right
-                p.mb-0 La corresponsabilidad institucional
-              li.mb-0.d-flex
-                i.far.fa-arrow-alt-circle-right
-                p.mb-0 La apropiación crítica del PEI
-          div(numero="5" titulo="Ética ambiental y sostenibilidad") 
-            p Se incorpora la sostenibilidad como principio transversal:
-            ul.lista-ul--color
-              li.mb-0.d-flex
-                i.far.fa-arrow-alt-circle-right
-                p.mb-0 Presente en todos los programas académicos
-              li.mb-0.d-flex
-                i.far.fa-arrow-alt-circle-right
-                p.mb-0 Guía ética de investigación y docencia
-              li.mb-0.d-flex
-                i.far.fa-arrow-alt-circle-right
-                p.mb-0 Compromiso con la equidad intergeneracional
-    
-    h2(data-aos="fade-left") Fundamentos del deber ser institucional
-    p.mb-5 Estos principios son los pilares que sostienen la coherencia entre el pensamiento institucional y su acción educativa:
-
-    TabsC.color-acento-contenido.mb-5
-      .tabs-content.border.px-4.p-md-5.py-3(titulo="Responsabilidad social" :icon="require('@/assets/bullets/1.svg')")
-        .row.justify-content-center
-          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
-            h4 Responsabilidad social
-            p Prácticas profesionales y proyectos que responden a las necesidades reales de la comunidad.
-    
-          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema2/45.png', alt='')
-    
-      .tabs-content.border.px-4.p-md-5.py-3(titulo="Respeto a la dignidad humana" :icon="require('@/assets/bullets/1.svg')")
-        .row.justify-content-center
-          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
-            h4 Respeto a la dignidad humana
-            p Normas de convivencia, políticas de inclusión, equidad y promoción de una cultura del respeto.
-    
-          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema2/46.png', alt='')
-    
-      .tabs-content.border.px-4.p-md-5.py-3(titulo="Ética profesional" :icon="require('@/assets/bullets/1.svg')")
-        .row.justify-content-center
-          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
-            h4 Ética profesional
-            p Formación en valores, lineamientos de conducta académica y códigos éticos aplicados en todos los niveles.
-    
-          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema2/47.png', alt='', style="width: 100%;")
-    
-      .tabs-content.border.px-4.p-md-5.py-3(titulo="Desarrollo sostenible" :icon="require('@/assets/bullets/1.svg')")
-        .row.justify-content-center
-          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
-            h4 Desarrollo sostenible
-            p Integración de criterios ambientales en los programas académicos y en la gestión institucional.
-    
-          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema2/48.png', alt='', style="width: 100%;")
-    
-    h2.mb-5(data-aos="fade-left") Deber ser y sentido de comunidad
+    #t_2_3.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.3] Comunidad y sentido de pertenencia
 
     .row.mb-5
       .col-lg-4.order-lg-2.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema2/49.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema4/22.png", data-aos="zoom-in")
+      .col-lg-8.order-lg-1
+        p.mb-5(data-aos="fade-left") El ingreso y la permanencia en la educación superior no se limitan a una experiencia académica individual. Implican también la incorporación a una comunidad educativa con identidad, valores y vínculos colectivos que dan sentido al proceso formativo. En este contexto, el fortalecimiento del sentido de pertenencia se convierte en una estrategia esencial para el bienestar estudiantil, la permanencia y la formación integral.
+    
+        .bg-color-4.p-4(data-aos="fade-left")
+          p.mb-0 La Corporación Escuela Tecnológica del Oriente, a través de su Proyecto Educativo Institucional (PEI), promueve un enfoque centrado en el estudiante como sujeto activo y constructor de comunidad. La institución no se entiende únicamente como un espacio instructivo, sino como un entorno de interacción, colaboración y crecimiento mutuo. Allí se construyen la identidad profesional, los vínculos sociales y el compromiso con el entorno.
+    
+    h2.mb-5(data-aos="fade-left") La comunidad educativa como espacio formativo
+
+    .row.mb-5
+      .col-lg-4.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema4/23.png", data-aos="zoom-in")
+      .col-lg-8
+        p(data-aos="fade-left") Según el PEI, la comunidad educativa está compuesta por estudiantes, docentes, directivos, personal administrativo, egresados y aliados estratégicos. Estos actores interactúan a través de procesos académicos, investigativos, culturales y sociales, conformando un sistema abierto y dinámico.
+    
+        .bg-color-1.p-5(data-aos="fade-left")
+          p.mb-0 En este contexto, el estudiante no es un receptor pasivo de conocimientos, sino un agente activo que aprende, enseña, colabora y transforma. El modelo pedagógico institucional lo ubica en el centro del proceso formativo, promoviendo la comprensión y aplicación del conocimiento en situaciones reales, mediante el diálogo con sus pares, docentes y entorno.
+    
+    h2.mb-5(data-aos="fade-left") El sentido de pertenencia: definición e impacto
+
+    .row.mb-5
+      .col-lg-4.order-lg-2.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema4/24.png", data-aos="zoom-in")
+      .col-lg-8.order-lg-1
+        p.mb-5(data-aos="fade-left") El sentido de pertenencia se entiende como el sentimiento de identificación, conexión y compromiso que una persona desarrolla hacia una comunidad, institución o grupo. En el ámbito universitario, se manifiesta cuando el estudiante se reconoce como parte de la institución, comparte sus valores, participa activamente en su vida institucional y se compromete con sus procesos. La Política de Permanencia Estudiantil destaca que este sentimiento:
+    
+        .bg-color-2.mb-3.p-4(data-aos="fade-left")
+          ul.lista-ul--color
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Fortalece la motivación y el compromiso.
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Disminuye la deserción.
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Enriquece la experiencia educativa.
+            i.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Actúa como factor protector ante dificultades académicas, emocionales o sociales.
+        p Una red de apoyo conformada por compañeros, docentes y personal institucional refuerza la confianza y la resiliencia, favoreciendo así la adaptación y el bienestar.
+    
+    h2(data-aos="fade-left") Estrategias para fomentar el sentido de pertenencia
+    p.mb-5 La institución implementa múltiples acciones para fortalecer el vínculo entre los estudiantes y la comunidad educativa. Estas estrategias están orientadas a generar participación, identidad y compromiso:
+
+    .row.align-items-center.mb-5
+      .col-lg-4.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema4/25.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
+      .col-lg-8
+        LineaTiempoD.color-primario.large-2(data-aos="fade-left")
+          p(numero="1" titulo="Programas de inducción") Presentar la misión, visión, valores, historia y servicios institucionales; crear un primer vínculo afectivo e informativo con la institución.
+          p(numero="2" titulo="Participación en órganos colegiados") Involucrar a los estudiantes en instancias decisorias como el Consejo Superior o Académico, promoviendo el liderazgo y el compromiso institucional.
+          p(numero="3" titulo="Actividades culturales y deportivas") Fomentar la integración, el desarrollo de talentos y la convivencia, construyendo lazos afectivos y fortaleciendo el entorno como espacio de bienestar.
+          p(numero="4" titulo="Reconocimientos y distinciones") Motivar mediante estímulos académicos, artísticos o deportivos que valoran el esfuerzo y consolidan la identificación con la institución.
+          p(numero="5" titulo="Red de egresados") Mantener vínculos con los graduados, consolidando la comunidad más allá de la vida académica y fortaleciendo el sentido de pertenencia a largo plazo.
+    
+    h2.mb-5(data-aos="fade-left") La corresponsabilidad como principio de comunidad
+
+    .row.mb-5
+      .col-lg-4.order-lg-2.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema4/26.png", data-aos="zoom-in")
       .col-lg-8.order-lg-1
         .bg-color-5.p-4.mb-5(data-aos="fade-left")
           .row.align-items-start
             .col-lg-auto
-              img(src="@/assets/curso/tema2/50.svg", style="max-width: 90px").mx-auto
+              img(src="@/assets/curso/tema4/27.svg", style="max-width: 90px").mx-auto
             .col-lg
-              p.mb-0 El deber ser en la Institución Tecnológica del Oriente no se reduce a buenas intenciones. Se convierte en una práctica formativa que moldea a cada estudiante como profesional y como ser humano. A través de la formación integral, la convivencia respetuosa, la proyección social, la participación activa y el compromiso ambiental, se construye una comunidad educativa sólida, coherente y comprometida. 
-        p(data-aos="fade-left") Cada estudiante, al asumir estos principios, se forma no solo para el mercado laboral, sino para la vida. Reconoce en su proceso formativo una oportunidad para crecer integralmente, aportar al bienestar colectivo y convertirse en agente de transformación de una sociedad más justa, solidaria y sostenible.
+              p.mb-0 El PEI subraya que la construcción de comunidad exige corresponsabilidad. Cada miembro —estudiantes, docentes, administrativos y directivos— tiene el deber de participar, proponer, respetar y cuidar el entorno común. El sentido de pertenencia se cultiva a través de la confianza, el reconocimiento mutuo y la participación activa.
+        p(data-aos="fade-left") Cuando el estudiante comprende su rol dentro de la comunidad, se convierte en un referente para otros y en un multiplicador de los valores institucionales. A su vez, la institución se compromete a garantizar ambientes seguros, incluyentes y participativos, donde cada persona pueda desarrollarse plenamente.
+    
+    h2.mb-5(data-aos="fade-left") Comunidad, permanencia y formación integral
+
+    .row.mb-5
+      .col-lg-4.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema4/28.png", data-aos="zoom-in")
+      .col-lg-8
+        .bg-color-2.p-4.mb-5(data-aos="fade-left")
+          p.mb-0 Fortalecer la comunidad educativa no es un complemento opcional del proceso formativo: es un pilar fundamental. El sentido de pertenencia potencia el rendimiento académico, incrementa la permanencia y proyecta a cada estudiante como parte activa de un proyecto educativo colectivo.
+        p(data-aos="fade-left") En coherencia con su misión, la Corporación Escuela Tecnológica del Oriente promueve un modelo educativo basado en la interacción, la corresponsabilidad y el desarrollo humano integral. Formar comunidad significa formar personas conscientes de su lugar en el mundo, capaces de transformar su realidad con ética, conocimiento y compromiso.
     
     .bg-full-width.bg-color-4.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
-          .col-lg-7.order-2
-            h2.mb-4(data-aos="flip-up") Vinculación institucional con la comunidad
-            p.mb-4(data-aos="fade-right") Se invita a leer el documento Vinculación institucional con la comunidad, donde se aborda la interacción entre la educación superior y la sociedad, destacando la importancia de la extensión universitaria, la proyección social, la responsabilidad social y el desarrollo sostenible
+          .col-lg-7.mb-3.mb-lg-0
+            h2.mb-4(data-aos="flip-up") Desarrollo personal y profesional
+            p.mb-4(data-aos="fade-right") Se invita a leer el documento Desarrollo personal y profesional, donde se aborda el proceso formativo integral promovido por la Institución Tecnológica del Oriente, centrado en el crecimiento humano, académico y social del estudiante.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p <strong>Anexo. </strong> Vinculación institucional con la comunidad.
+                p <strong>Anexo. </strong> Desarrollo personal y profesional.
     
-          .col-lg-5.order-1.mb-3.mb-lg-0
+          .col-lg-5
             figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema2/51.png', alt='')
+              img(src='@/assets/curso/tema4/29.png', alt='')
     
+        
 
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
 
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
@@ -597,16 +367,12 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/113869 " target="_blank" rel="noopener noreferrer") Oto, G. D. (2014). Encuentra tu pasión: siete pasos para emprender tu proyecto de vida: ( ed.). Ediciones Granica. 
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://tecnologicadeloriente.edu.co " target="_blank" rel="noopener noreferrer") Corporación Escuela Tecnológica del Oriente. (sf). Políticas de transparencia y acceso a la información pública . 
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/95865 " target="_blank" rel="noopener noreferrer") Durán, A. D. S. (2009). Relación entre la experiencia de la separación parental y la construcción de un proyecto de vida del joven y la joven universitarios: ( ed.). D - Pontificia Universidad Javeriana. 
 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=gBxDOStHS9I" target="_blank" rel="noopener noreferrer") Emprender Impulsamos Desarrollo. (2020, 26 de marzo). Conclusiones proyecto de vida [Video]. YouTube. 
+              a(href="https://www.youtube.com/watch?v=B312qKhC4co" target="_blank" rel="noopener noreferrer") USAER75 TS. (2021, 15 de enero). Proyecto de vida [Video]. YouTube. 
 
 
 
@@ -617,8 +383,184 @@
 </template>
 
 <script>
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
   name: 'Tema2',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'PROYECTO DE VIDA E IDENTIDAD INSTITUCIONAL',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              '¿Qué componente es fundamental para iniciar la construcción de un proyecto de vida?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'La elección de una carrera profesional',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'El conocimiento de las tendencias laborales',
+                esCorrecta: false,
+              },
+              { id: 'c', texto: 'El autoconocimiento', esCorrecta: true },
+              {
+                id: 'd',
+                texto: 'La aprobación del entorno familiar',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Cuál de los siguientes factores puede dificultar la permanencia estudiantil en la educación superior?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'La participación en actividades institucionales',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'El acceso a recursos de bienestar',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'La falta de autorregulación emocional',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'El acompañamiento académico oportuno',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto:
+              'El sentido de pertenencia dentro de la comunidad universitaria se fortalece principalmente a través de:',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'El uso exclusivo de plataformas virtuales',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'La desconexión con los espacios de interacción',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'La identificación con los valores institucionales',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'La individualización de los procesos formativos',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto: '¿Qué define mejor a las habilidades para la vida?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Son contenidos teóricos que refuerzan la disciplina profesional',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Son normas institucionales para regular el comportamiento estudiantil',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Son capacidades personales y sociales para afrontar desafíos cotidianos',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Son técnicas exclusivas para la resolución de conflictos laborales',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Cuál de los siguientes elementos es clave en la planificación del futuro?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'La eliminación de toda incertidumbre',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'El uso de redes sociales para establecer metas',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'La definición de objetivos personales y profesionales claros',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'La dependencia de apoyos externos para avanzar',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
@@ -627,4 +569,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>

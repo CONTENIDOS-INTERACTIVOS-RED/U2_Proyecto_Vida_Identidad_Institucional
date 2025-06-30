@@ -2,7 +2,7 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5 La Unidad 1 permitió comprender el marco normativo y filosófico que orienta la educación superior en Colombia y el quehacer institucional de la Institución Tecnológica del Oriente. 
+      p(data-aos="fade-up").mb-5 La Unidad 2 permitirá reflexionar sobre el proyecto de vida como un proceso que articula las aspiraciones personales, académicas y profesionales con los valores, talentos y propósitos del ser humano. 
 
       .row.justify-content-center
         .col-lg-12.mb-5

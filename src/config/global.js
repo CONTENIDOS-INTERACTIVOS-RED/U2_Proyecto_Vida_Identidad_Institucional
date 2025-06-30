@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad: 'Marco Legal Corporación Tecnológica',
+    numeroUnidad: '2',
+    tituloUnidad: 'Proyecto de vida',
   },
   menuPrincipal: {
     menu: [
@@ -15,21 +15,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'Ley 30 de 1992',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Construyendo el proyecto de vida',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Fundamentos de la Educación Superior en Colombia.',
+            titulo: '¿Qué es un Proyecto de Vida?',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo:
-              'Reglamentación estudiantil: derechos, deberes y participación.',
+            titulo: 'Autoconocimiento y toma de decisiones',
             hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Dimensiones del proyecto de vida',
+            hash: 't_1_3',
           },
         ],
       },
@@ -37,81 +42,26 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Identidad institucional',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo:
-              'Filosofía institucional: misión, visión, valores y principios.',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Símbolos institucionales y sentido de pertenencia',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Deber ser institucional: fundamentos éticos y sociales',
-            hash: 't_2_3',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Construyendo el proyecto de vida',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: '¿Qué es un Proyecto de Vida?',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Autoconocimiento y toma de decisiones',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Dimensiones del proyecto de vida',
-            hash: 't_3_3',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
-        numero: '4',
         titulo: 'Adaptación estudiantil',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '4.1',
+            numero: '2.1',
             titulo: 'Transición a la vida universitaria',
-            hash: 't_4_1',
+            hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '4.2',
+            numero: '2.2',
             titulo: 'Retos y factores de permanencia',
-            hash: 't_4_2',
+            hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '4.3',
+            numero: '2.3',
             titulo: 'Comunidad y sentido de pertenencia',
-            hash: 't_4_3',
+            hash: 't_2_3',
           },
         ],
       },
@@ -170,64 +120,64 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Acceso con equidad',
+      termino: 'Autoconocimiento',
       significado:
-        'principio que garantiza la igualdad de oportunidades para acceder a la educación superior',
+        'capacidad de una persona para conocerse a sí misma en aspectos emocionales, cognitivos y sociales.',
     },
     {
-      termino: 'Autonomía universitaria',
+      termino: 'Autorregulación',
       significado:
-        'capacidad de las IES de gobernarse autónomamente respetando la Constitución y la Ley',
+        'habilidad para controlar las propias emociones, pensamientos y comportamientos en función de metas personales.',
     },
     {
-      termino: 'Calidad educativa',
+      termino: 'Competencias',
       significado:
-        'compromiso de las IES con ofrecer procesos, recursos y resultados académicos de excelencia',
+        'conjunto de conocimientos, habilidades y actitudes necesarias para un desempeño eficaz en diversos contextos.',
     },
     {
-      termino: 'Constitución política',
+      termino: 'Desarrollo personal',
       significado:
-        'norma fundamental que rige la vida jurídica, política y social de Colombia desde 1991',
+        'proceso de crecimiento integral que permite fortalecer la identidad, la autonomía y la toma de decisiones.',
     },
     {
-      termino: 'Deber ser institucional',
+      termino: 'Desarrollo profesional',
       significado:
-        'conjunto de principios éticos y sociales que guían la acción de la comunidad educativa',
+        'proyección de habilidades, conocimientos y metas hacia el ejercicio profesional con compromiso ético y social.',
     },
     {
-      termino: 'Educación superior',
+      termino: 'Habilidades para la vida',
       significado:
-        'nivel de formación posterior a la educación media que promueve el desarrollo humano integral',
+        'capacidades personales y sociales que permiten afrontar de forma positiva los desafíos cotidianos.',
     },
     {
-      termino: 'Extensión universitaria',
+      termino: 'Permanencia estudiantil',
       significado:
-        'función que permite a las IES interactuar con la sociedad a través de servicios y programas',
+        'condición que garantiza la continuidad y culminación del proceso formativo a través de apoyo integral.',
     },
     {
-      termino: 'Ley 30 de 1992',
+      termino: 'Planificación del futuro',
       significado:
-        'ley colombiana que organiza el servicio público de la educación superior',
+        'proceso consciente de establecer metas y estrategias para orientar el rumbo personal y profesional.',
     },
     {
-      termino: 'Misión institucional',
+      termino: 'Proyecto de vida',
       significado:
-        'declaración que define la razón de ser y los propósitos fundamentales de una institución educativa',
+        'plan de vida estructurado que integra aspiraciones, valores, metas y acciones con sentido.',
     },
     {
-      termino: 'Participación estudiantil',
+      termino: 'Sentido de pertenencia',
       significado:
-        'derecho y deber de los estudiantes de involucrarse en los procesos de gobierno y vida institucional',
+        'identificación y conexión emocional con la institución educativa que fortalece el compromiso académico.',
     },
     {
-      termino: 'Proyecto Educativo Institucional (PEI)',
+      termino: 'Visión profesional',
       significado:
-        'documento que orienta la filosofía, misión, visión y políticas de una institución educativa',
+        'imagen proyectada del ejercicio profesional que articula metas, propósitos y responsabilidad social.',
     },
     {
-      termino: 'Responsabilidad social universitaria',
+      termino: 'Vocación',
       significado:
-        'compromiso ético de las IES con el desarrollo social, ambiental y económico sostenible',
+        'llamado interior que orienta la elección de una carrera o propósito vital acorde a talentos y valores.',
     },
   ],
 }
